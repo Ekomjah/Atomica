@@ -154,7 +154,7 @@ footer{
 }
 
 
-@media (max-width:730px){
+@media (max-width:1000px){
     .images{
         height: 120px;
     }
@@ -195,9 +195,9 @@ footer{
     
 }
 
-@media (max-width:1085px) {
+@media (max-width:1000px) {
     .images {
-        height: 160px;
+        height: 140px;
     }
 }
 
