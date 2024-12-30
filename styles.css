@@ -120,10 +120,11 @@ h2{
     grid-template-rows: 1fr;
     grid-auto-flow: dense;
     margin-bottom: 4em;
-    gap: 40px;
+    gap: 2.5em;
     /* align-content: center; */
     margin-inline: auto;
 }
+
 
 .ninety{
     max-width: 80%  ;
@@ -177,12 +178,38 @@ footer{
     padding: 0.83em;
 }
 
+.padded{
+    padding: 1em;
+}
 
-/* @media (max-width: 1000px){
-    .images{
-        height: 120px;
-    }
-} */
+
+@media (max-width: 425px){
+   .services{
+    margin-inline: 6.5vw;
+   }
+
+   h2 {
+    font-size: 25px;
+   }
+
+   .whattheysay{
+    font-size: 1.125rem;
+   }
+
+   .bottom{
+    margin-bottom: 2em;
+}
+
+   
+.last{
+    margin-bottom: 0;
+}
+
+
+   .yoga{
+    width: 80vw;
+   }
+}
 /* @media (max-width:730px) {
     .yoga{
         width: 40vw;
