@@ -1,3 +1,7 @@
+body > *{
+    margin: 0;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -204,81 +208,10 @@ footer{
 .last{
     margin-bottom: 0;
 }
+}
 
-
+@media (max-width: 1272px){
    .yoga{
-    width: 80vw;
+    width: 86vw;
    }
 }
-/* @media (max-width:730px) {
-    .yoga{
-        width: 40vw;
-    }
-
-    .logo{
-        width: 20vw;
-    }
-
-    .secondarytext{
-        font-size: 14px;
-    }
-
-    .images{
-        height: 100px;
-        width: 100px;
-    }
-    
-} */
-
-/* @media (max-width:530px) {
-    .images{
-        height: 70px;
-        width: 70px;
-    }
-
-    h2{
-        font-size: 16px;
-    }
-
-    .ppp{
-        font-size: 18px;
-    }
-    
-}
-
-@media (max-width:1085px) {
-    .images {
-        height: 160px;
-    }
-}
-
-@media (max-width:485px) {
-    .images{
-        height: 60px;
-        width: 60px;
-    }
-
-    .ppp, .whattheysay, .blue > *, .nav > *{
-        font-size: 12px;
-    }
-
-    .blue{
-        margin-inline: 10vw;
-    }
-
-    button{
-        font-size: 10px;
-        padding: 0.3em;
-        border-radius: 10px;
-        margin-left: 10px;
-    }
-
-    .nav > *{
-        font-size: 11px;
-    }
-
-    .yoga{
-        margin-inline-start: 0.6em;
-    }
-    
-} */
